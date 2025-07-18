@@ -1,0 +1,8 @@
+This Python script, designed for use in Google Colab, automates the process of inserting data from a 'Dashboard' sheet in an Excel file into a specific range across 20 sheets within a Google Spreadsheet.
+It uses the libraries pandas, numpy, gspread, and gspread_dataframe to:
+Authenticate Google account.
+Upload and read an Excel
+Load the Dashboard data into a pandas DataFrame.
+Access the target Google Spreadsheet.
+Insert the selected data into the 20 spreadsheet.
+This script is ideal for distributing specific portions of a dashboard (e.g., summaries or key metrics) into multiple sheets for reporting or team tracking.
