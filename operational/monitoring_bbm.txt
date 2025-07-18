@@ -1,0 +1,9 @@
+This Python script, designed for use in Google Colab, automates the validation of fuel (BBM) input data collected through a Google Form and stored in a Google Sheet.
+The script performs the following checks:
+- Fuel Price per Liter – Ensures the entered price is within a reasonable range.
+- Minimum Fuel Volume – Validates that the volume filled is not less than 5 liters.
+- Vehicle Registration – Verifies that the vehicle’s license plate is listed in a registered vehicle database.
+- The distance gap between the last fuel refill and the previous one is increasing over time.
+- The fuel consumption ratio (km/l) is within a reasonable range.
+The form responses are retrieved from one sheet, and the list of registered vehicles is retrieved from another. Entries that do not meet one or more of the criteria are flagged with specific validation messages.
+This tool helps ensure the accuracy, consistency, and legitimacy of submitted fuel data, making it useful for fleet management, expense monitoring, and internal audits.
