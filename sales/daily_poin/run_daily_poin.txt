@@ -1,0 +1,8 @@
+This Python script, designed for use in Google Colab, automates the process of formatting data from an excel and 20 spreadsheets in a Google Spreadsheet into a pivot table format.
+Using pandas, numpy, gspread, and parse, the script performs the following steps:
+- Authenticates your Google account.
+- Reads the excel and spreadsheets into pandas DataFrames.
+- Combines or individually processes the sheets depending on your logic.
+- Formats the data into a pivot table structure using pandas.pivot_table() or groupby() based on the desired index, columns, and values.
+- Prepares the pivoted data for export, analysis, or writing back to a sheet.
+This is useful for summarizing and analyzing structured data across multiple sheets, such as aggregating sales, tracking KPIs, or building custom reports.
